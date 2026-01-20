@@ -1,70 +1,51 @@
-# Getting Started with Create React App
+# Dashboard Financeiro | Isaac Ikawa
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![Preview do Dashboard Financeiro](preview.png)
 
-## Available Scripts
+## 🧩 Descrição
+Dashboard financeiro desenvolvido em **React + SASS**, exibindo dados **reais de Dólar (USD/BRL) e Bitcoin (BRL)**, com gráficos históricos, cards de alta/queda e layout responsivo.  
 
-In the project directory, you can run:
+---
 
-### `npm start`
+## 🎯 Objetivo
+Demonstra conhecimentos em **React, SASS, gráficos interativos e consumo de APIs públicas**, com foco em responsividade, experiência do usuário e atualização automática de dados financeiros.  
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+---
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 🛠️ Tecnologias Utilizadas
+- React
+- SASS
+- Chart.js + react-chartjs-2 (gráficos de linha)
+- APIs públicas: Banco Central (Dólar) e CoinGecko (Bitcoin)
 
-### `npm test`
+---
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## ⚙️ Funcionalidades
+- Layout responsivo com fundo cinza escuro  
+- Cards mostrando **valores atuais e setas de alta/queda**  
+- Gráficos de linha para histórico de preços  
+- Atualização automática a cada minuto  
 
-### `npm run build`
+---
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## 📂 Estrutura do Projeto
+- **public/**: arquivos públicos (HTML, favicon, etc.)  
+- **src/**: componentes React, gráficos, cards e SASS  
+- **package.json**: dependências e scripts  
+- **README.md**: documentação do projeto  
+- **.gitignore**: arquivos ignorados pelo Git  
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+---
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## 📱 Responsividade
+O dashboard se adapta a diferentes tamanhos de tela (desktop, tablet e mobile), garantindo boa experiência de visualização sem precisar de scroll horizontal.  
 
-### `npm run eject`
+---
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## 🚀 Acesso ao Projeto
+🔗 **Deploy:** [https://isaac-ikawa.github.io/dashboard-financeiro/](https://isaac-ikawa.github.io/dashboard-financeiro/)  
+📁 **Repositório:** [https://github.com/isaac-ikawa/dashboard-financeiro](https://github.com/isaac-ikawa/dashboard-financeiro)  
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+---
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Desenvolvido por **Isaac Ikawa** 👨‍💻
