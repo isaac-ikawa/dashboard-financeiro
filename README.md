@@ -48,4 +48,4 @@ O dashboard se adapta a diferentes tamanhos de tela (desktop, tablet e mobile), 
 
 ---
 
-Desenvolvido por **Isaac Ikawa** 👨‍💻
+Desenvolvido por **Isaac Ikawa** 😎
