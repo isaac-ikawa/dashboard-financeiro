@@ -1,0 +1,96 @@
+// Variáveis
+$primary-color: #2d2d2d;
+$secondary-color: #3c3c3c;
+$padding: 0.8rem;
+$border-radius: 8px;
+$font-family: 'Segoe UI', sans-serif;
+$text-color: #f9fafb;
+
+// Body
+body {
+  font-family: $font-family;
+  background-color: $primary-color;
+  color: $text-color;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+// Header
+header {
+  padding: $padding;
+  text-align: center;
+  font-size: 1.8rem;
+}
+
+// Cards
+.cards {
+  display: flex;
+  gap: 0.8rem;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: $padding;
+
+  .card {
+    background-color: $secondary-color;
+    border-radius: $border-radius;
+    padding: $padding;
+    flex: 1 1 120px;
+    max-width: 180px; // reduzido para caber na tela
+    text-align: center;
+    transition: transform 0.2s;
+    border: 2px solid transparent;
+
+    h2 {
+      margin-bottom: 0.3rem;
+      font-size: 0.9rem;
+    }
+
+    p {
+      font-size: 0.9rem;
+      font-weight: bold;
+      margin: 0;
+
+      span {
+        margin-left: 0.2rem;
+      }
+    }
+
+    &:hover {
+      transform: translateY(-3px);
+    }
+  }
+}
+
+// Gráficos
+.charts-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: center;
+
+  .chart-wrapper {
+    background-color: $secondary-color;
+    padding: $padding;
+    border-radius: $border-radius;
+    flex: 1 1 300px;
+    max-width: 600px;
+  }
+}
+
+// Footer
+.footer {
+  text-align: center;
+  padding: 0.8rem;
+  font-size: 0.9rem;
+  color: #a1a1aa;
+  margin-top: 1rem;
+}
+
+// Responsivo
+@media (max-width: 800px) {
+  .charts-grid {
+    flex-direction: column;
+    align-items: center;
+  }
+}
